@@ -5,15 +5,12 @@
 <br />
 <div align="center">
   <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
-  </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Bossnobenta</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Bossnobenta is a specialized bike shop and lifestyle brand that caters to the fixed gear and street biking community. The project aims to provide an engaging online platform where enthusiasts can browse and purchase bikes, apparel, and accessories that reflect the street cycling culture. With a strong emphasis on style, performance, and community, Bossnobenta is more than just a store—it's a hub for fixed gear riders and urban cyclists.
 </div>
 
 <br />
