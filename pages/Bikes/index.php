@@ -73,3 +73,13 @@ function displayBikes($bikes) {
     echo '</div>';
   }
 }
+  ?>
+<main>
+    <div class="bike-grid">
+    <?php
+      displayBikes($bikes);
+    ?>
+    </div>
+  </main>
+</body>
+</html>
