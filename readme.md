@@ -10,7 +10,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Bossnobenta is a specialized bike shop and lifestyle brand that caters to the fixed gear and street biking community. The project aims to provide an engaging online platform where enthusiasts can browse and purchase bikes, apparel, and accessories that reflect the street cycling culture. With a strong emphasis on style, performance, and community, Bossnobenta is more than just a store—it's a hub for fixed gear riders and urban cyclists.
+  Bossnobenta is a specialized bike shop and lifestyle brand that caters to the fixed gear and street biking community.
 </div>
 
 <br />
