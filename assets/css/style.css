@@ -5,3 +5,34 @@ body {
   background-color: #bdbdbd37;
 }
 
+
+nav {
+  background-color: #ffffff;
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+nav .logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
