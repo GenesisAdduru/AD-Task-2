@@ -55,3 +55,21 @@ $bikes = [
     "specs" => "THE TOKYO, DOSNOVENTA HIGH-END FULL CARBON FRAME SET. SUPERLIGHT, EXCEPTIONALLY STIFF AND HIGH-PERFORMANCE"
   ],
 ];
+
+function displayBikes($bikes) {
+  foreach ($bikes as $bike) {
+    echo '<div class="flip-card">';
+    echo '  <div class="flip-card-inner">';
+    echo '    <div class="flip-card-front">';
+    echo '      <img src="' . htmlspecialchars($bike['image']) . '" alt="' . htmlspecialchars($bike['name']) . '">';
+    echo '      <h3>' . htmlspecialchars($bike['name']) . '</h3>';
+    echo '      <p class="price">' . htmlspecialchars($bike['price']) . '</p>';
+    echo '    </div>';
+    echo '    <div class="flip-card-back">';
+    echo '      <h4>Specifications</h4>';
+    echo '      <p class="specs">' . nl2br(htmlspecialchars($bike['specs'])) . '</p>';
+    echo '    </div>';
+    echo '  </div>';
+    echo '</div>';
+  }
+}
