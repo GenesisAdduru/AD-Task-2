@@ -61,15 +61,15 @@
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 
-Description of the project in details.
+Bossnobenta is a specialized bike shop and lifestyle brand that caters to the fixed gear and street biking community. The project aims to provide an engaging online platform where enthusiasts can browse and purchase bikes, apparel, and accessories that reflect the street cycling culture. With a strong emphasis on style, performance, and community, Bossnobenta is more than just a store—it's a hub for fixed gear riders and urban cyclists.
 
 ### Key Components
 
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 
-- Authentication & Authorization
-- CRUD Operations for Invetory System
+- Dynamic Product Showcase for Bikes and Apparel
+- Future Expansion for User Accounts and Order Tracking
 
 ### Technology
 
@@ -77,21 +77,8 @@ Description of the project in details.
 #### Language
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
-#### Framework/Library
-![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=for-the-badge&logo=codeigniter&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-
-#### Databases
-![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-
-#### Deployment
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ## Rules, Practices and Principles
 
@@ -112,32 +99,42 @@ Description of the project in details.
 10. File Structure to follow below.
 
 ```
-AD-ProjectName
+AD-Task-2
 └─ assets
 |   └─ css
-|   |   └─ name.css
+|   |   └─ style.css
 |   └─ img
-|   |   └─ name.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ name.js
+|   |   └─ bossnobenta.jpg
 └─ components
-|   └─ name.component.php
 |   └─ templates
-|      └─ name.component.php
-└─ handlers
-|   └─ name.handler.php
+|      └─ head.component.php
+|      └─ nav.component.php
 └─ pages
-|  └─ pageName
+|  └─ Apparel
 |     └─ assets
-|     |  └─ css
-|     |  |  └─ name.css
 |     |  └─ img
-|     |  |  └─ name.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ name.js
+|     |  |  └─ 1.1.webp
+|     |  |  └─ 1.2.webp
+|     |  |  └─ 1.3.webp
+|     |  |  └─ 1.4.webp
+|     |  |  └─ 1.5.webp
+|     |  |  └─ 1.6.webp
+|     |  |  └─ 1.7.webp
+|     |  |  └─ 1.8.webp
 |     └─ index.php
-└─ utils
-|   └─ name.utils.php
+|  └─ Bikes
+|     └─ assets
+|     |  └─ img
+|     |  |  └─ 1.webp
+|     |  |  └─ 2.webp
+|     |  |  └─ 3.webp
+|     |  |  └─ 4.webp
+|     |  |  └─ 5.webp
+|     |  |  └─ 6.webp
+|     |  |  └─ 7.jpg
+|     |  |  └─ 8.webp
+|     └─ index.php
+|
 └─ vendor
 └─ .gitignore
 └─ bootstrap.php
@@ -155,7 +152,6 @@ AD-ProjectName
 
 | Title        | Purpose                                                                       | Link          |
 | ------------ | ----------------------------------------------------------------------------- | ------------- |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Chatgpt      | Used for generating, debugging, and refining code logic, as well as assisting with documentation and project structuring. | chatgpt.com |
+| W3Schools    | Referred to for HTML, CSS, JavaScript, and PHP syntax, examples, and tutorials during frontend and backend development. | w3schools.com |
+
