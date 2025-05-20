@@ -74,3 +74,12 @@ function displayApparel($items) {
   }
 }
 ?>
+<main>
+    <div class="bike-grid">
+    <?php
+      displayApparel($apparels);
+    ?>
+    </div>
+  </main>
+</body>
+</html>
