@@ -56,3 +56,21 @@ $apparels = [
   ]
 ];
 
+function displayApparel($items) {
+  foreach ($items as $item) {
+    echo '<div class="flip-card">';
+    echo '  <div class="flip-card-inner">';
+    echo '    <div class="flip-card-front">';
+    echo '      <img src="' . htmlspecialchars($item['image']) . '" alt="' . htmlspecialchars($item['name']) . '">';
+    echo '      <h3>' . htmlspecialchars($item['name']) . '</h3>';
+    echo '      <p>' . htmlspecialchars($item['price']) . '</p>';
+    echo '    </div>';
+    echo '    <div class="flip-card-back">';
+    echo '      <h4>Details</h4>';
+    echo '      <p>' . nl2br(htmlspecialchars($item['specs'])) . '</p>';
+    echo '    </div>';
+    echo '  </div>';
+    echo '</div>';
+  }
+}
+?>
